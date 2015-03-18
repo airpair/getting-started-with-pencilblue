@@ -148,7 +148,9 @@ In this section, we will be looking at how to install PencilBlue on windows, mac
    <li>You should now be able to navigate to your install of PencilBlue through the URL you specified in the install.</li>
 </ol>
 
-## 3 How to learn PencilBlue
+## 3 Lets Build a Website with Pencilblue
+
+## 4 How to learn PencilBlue
 
 There are several places you can learn about Pencilblue. The following are links to resources you can use.
 
