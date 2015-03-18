@@ -35,7 +35,7 @@ In this section, we will be looking at how to install PencilBlue on windows, mac
 <h4>Install the PencilBlue command-line interface tool</h4>
 <ol>
    <li>Open a command prompt as an administrator (Microsoft how to).</li>
-   <li>Run npm install -g pencilblue-cli to install the command-line interface through NPM.</li>
+   <li>Run `npm install -g pencilblue-cli` to install the command-line interface through NPM.</li>
 </ol>
 
 <h4>Install and Run PencilBlue</h4>
@@ -68,7 +68,7 @@ In this section, we will be looking at how to install PencilBlue on windows, mac
 <h4>Install the PencilBlue command-line interface tool</h4>
 
 <ol>
-   <li>In the terminal, run npm install -g pencilblue-cli to install the command-line interface through NPM.</li>
+   <li>In the terminal, run `npm install -g pencilblue-cli` to install the command-line interface through NPM.</li>
 </ol>
 
 
@@ -76,8 +76,8 @@ In this section, we will be looking at how to install PencilBlue on windows, mac
 
 <ol>
    <li>Once pencilblue-cli is installed, in the terminal, cd to the directory that you want the PencilBlue directory to install to.</li>
-   <li>Run pbctrl install [directory] where directory is the name of the folder you want PencilBlue to be installed to. Follow the instructions.</li>
-   <li>cd to the directory you installed PencilBlue to and run pbctrl start</li>
+   <li>Run `pbctrl install [directory]` where directory is the name of the folder you want PencilBlue to be installed to. Follow the instructions.</li>
+   <li>cd to the directory you installed PencilBlue to and run `pbctrl start`</li>
    <li>You should now be able to navigate to your install of PencilBlue through the URL you specified in the install.</li>
 </ol>
 
@@ -91,21 +91,21 @@ In this section, we will be looking at how to install PencilBlue on windows, mac
       <ol>
          <li>Ubuntu's package manager has an outdated version of Node.js, so you'll need to add a repository to install</li>
          <li>In a terminal, run curl -sL https://deb.nodesource.com/setup | sudo bash -</li>
-         <li>Then run sudo apt-get install nodejs to install the latest version of Node.js</li>
+         <li>Then run `sudo apt-get install nodejs` to install the latest version of Node.js</li>
       </ol>
    </li>
 
    <li>
       Fedora
       <ol>
-         <li>In a terminal, run sudo yum install nodejs npm</li>
+         <li>In a terminal, run `sudo yum install nodejs npm`</li>
       </ol>
    </li>
 
    <li>
       Arch
       <ol>
-         <li>In a terminal, run pacman -S nodejs</li>
+         <li>In a terminal, run `pacman -S nodejs`</li>
       </ol>
    </li>
 </ul>
@@ -117,19 +117,19 @@ In this section, we will be looking at how to install PencilBlue on windows, mac
    <li>
       Ubuntu/Debian
       <ol>
-         <li>In a terminal, run sudo apt-get install mongodb</li>
+         <li>In a terminal, run `sudo apt-get install mongodb`</li>
       </ol>
    </li>
    <li>
         Fedora
       <ol>
-         <li>In a terminal, run sudo yum install mongodb</li>
+         <li>In a terminal, run `sudo yum install mongod`</li>
       </ol>
    </li>
    <li>
         Arch
       <ol>
-         <li>In a terminal, run pacman -S mongodb</li>
+         <li>In a terminal, run `pacman -S mongodb`</li>
       </ol>
    </li>
 </ul>
@@ -143,12 +143,20 @@ In this section, we will be looking at how to install PencilBlue on windows, mac
 <h4>Install and Run PencilBlue</h4>
 <ol>
    <li>Once pencilblue-cli is installed, in the terminal, cd to the directory that you want the PencilBlue directory to install to.</li>
-   <li>Run pbctrl install [directory] where directory is the name of the folder you want PencilBlue to be installed to. Follow the instructions.</li>
-   <li>cd to the directory you installed PencilBlue to and run pbctrl start</li>
+   <li>Run `pbctrl install [directory]` where directory is the name of the folder you want PencilBlue to be installed to. Follow the instructions.</li>
+   <li>cd to the directory you installed PencilBlue to and run `pbctrl start`</li>
    <li>You should now be able to navigate to your install of PencilBlue through the URL you specified in the install.</li>
 </ol>
 
 ## 3 Lets Build a Website with Pencilblue
+
+I this section we will build a website using pencilblue. If you've not read the first two sections, please move up and read. This esction is based on them.
+
+Now that we've gone through the process of installing all we need to build a website with pencilblue, let get build one. 
+
+Open your terminal or command prompt and `cd` into your working directory (where you want the project code to reside). Run `pbctrl install hello-pencilblue`.
+
+
 
 ## 4 How to learn PencilBlue
 
