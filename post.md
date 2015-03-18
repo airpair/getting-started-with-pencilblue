@@ -160,9 +160,9 @@ You will be asked the following questions. I've added what you will type as resp
 
 <ol>
    <li>Pencilblue: Site Name: (My Pencilblue Site)</li>
-   Type 'Hello Pencilblue' and enter or you can leave it as 'My Pencilblue Site'
+   Type 'Hello Pencilblue' and enter or you can leave it as **My Pencilblue Site**
    <li>Pencilblue: Site Root: (http://localhost:8080)</li>
-   Just type enter to use the default. You can choose to change the port if 8080 has already been taken. e.g. 'http://localhost:8081'
+   Just type enter to use the default. You can choose to change the port if 8080 has already been taken. e.g. **http://localhost:8081**
 </ol>
 
 ## 4 How to learn PencilBlue
