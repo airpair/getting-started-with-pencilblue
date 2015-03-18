@@ -156,7 +156,14 @@ Now that we've gone through the process of installing all we need to build a web
 
 Open your terminal or command prompt and `cd` into your working directory (where you want the project code to reside). Run `pbctrl install hello-pencilblue`.
 
+You will be asked the following questions. I've added what you will type as response.
 
+<ol>
+   <li>Pencilblue: Site Name: (My Pencilblue Site)</li>
+   Type 'Hello Pencilblue' and enter or you can leave it as 'My Pencilblue Site'
+   <li>Pencilblue: Site Root: (http://localhost:8080)</li>
+   Just type enter to use the default. You can choose to change the port if 8080 has already been taken. e.g. 'http://localhost:8081'
+</ol>
 
 ## 4 How to learn PencilBlue
 
