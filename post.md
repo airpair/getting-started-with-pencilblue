@@ -160,11 +160,32 @@ You will be asked the following questions. I've added what you will type as resp
 
 <ol>
    <li>Pencilblue: Site Name: (My Pencilblue Site)</li>
-   Type 'Hello Pencilblue' and enter or you can leave it as **My Pencilblue Site**
+   Type **'Hello Pencilblue'** and enter or you can leave it as **My Pencilblue Site**
    <li>Pencilblue: Site Root: (http://localhost:8080)</li>
    Just type enter to use the default. You can choose to change the port if 8080 has already been taken. e.g. **http://localhost:8081**
-</ol>
-
+   <li>Pencilblue: Address to bind to: (0.0.0.0)</li>
+   Just type enter to use the default.
+   <li>Pencilblue: Site Port: (8080)</li>
+   Just type enter to use the default. You can choose to change it if 8080 has already been taken. Note: Make sure the port you specify here is the same as the you specified on the site  root url.
+   <li>Pencilblue: MongoDB URL: (mongodb://127.0.0.1:27017)</li>
+   Just type enter to use the default or you can choose another url of the mongodb instance you want to use.
+   <li>Pencilblue: Database Name: (pencilblue)</li>
+   Just type enter to use the default or you can choose a different one.
+   <li>Pencilblue: Do you want to install Bower components?: (y/N)</li>
+   If you do not want to use cdn urls for you libraries like angularjs and bootstrap but want to use locally installed version type **y** and press enter or return but if you want to use cdns, then type **N** and press enter or return.
+ </ol?
+ 
+ Pencilblue will start clonning  the source files for the app from github, install the node dependencies and install the bower components if you selected yes to, **Pencilblue: Do you want to install Bower components?: (y/N)**.
+ 
+ After All that, a config.js file will be generated for you which will be used by penciblue.
+ 
+ Now, cd into the directory in which pencilblue has been intalled and type **pbctrl start**. Make sure your MongoDB instance is up and running before you start the app else you will get an error.
+ 
+ Note: The name you chose for the app (like ) will be used to name the directory in which pencilblue will be installed.
+ 
+ Now navigate to the url you specified in step 2 above in your browser. Pencilblue will present you with a form to enter details to setup an Administrator account for you to enable access to the admin section of pencilblue which will be located at [url]/admin (e.g. http://localhost:8080/admin)
+ 
+And there you go. You have pencilblue up and running.
 ## 4 How to learn PencilBlue
 
 There are several places you can learn about Pencilblue. The following are links to resources you can use.
@@ -174,7 +195,6 @@ There are several places you can learn about Pencilblue. The following are links
 * https://pencilblue.org/section/tutorials
 * https://pencilblue.org/blog
 * http://www.reddit.com/r/pencilblue/
-* http://hugemap.info (comming soon)
 
 I encourage you to take a look at PencilBlue. 
 
